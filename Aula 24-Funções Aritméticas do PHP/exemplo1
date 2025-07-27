@@ -1,8 +1,0 @@
-<?php 
-$r = abs(500);
-print("A resposta é $r");
-
-$r = abs(-2000);
-print("<p> A resposta é $r")
-
-?>
