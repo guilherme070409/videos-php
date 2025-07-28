@@ -24,7 +24,7 @@
     </main>
     <section>
         <?php 
-            $aumento = $preco * $rea / 100;
+            $aumento = $preco * $reajuste / 100;
             $novo = $preco + $aumento;
         ?>
         <h2>Resultado do reajuste</h2>
