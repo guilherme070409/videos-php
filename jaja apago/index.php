@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +7,12 @@
 </head>
 <body>
 <?php 
-$duvidoso = "<h1><script> alert('hackei você muahhahahahahahahahahahahahahhahahahahahahaahahahahhahahahaahhahaahahhahahahahahaahhahahahahahahahahahahahahahahahhahahhhhhhhahaahahahahhahaahhahahaha')</script></h1>";
-$seguro = htmlspecialchars($duvidoso);
-echo "$seguro";
+$exem = "sou um exemplo:)";
+$exemploarray = array("teste",1 ,false,"oiii", $exem);
+
+foreach($exemploarray as $chave => $valor){
+    echo "O valor com a chave ".  $chave  . " é " . $valor ."<br>";
+}
 ?>
 </body>
 </html>
