@@ -9,10 +9,11 @@
 <?php 
 $exem = "sou um exemplo:)";
 $exemploarray = array("teste",1 ,false,"oiii", $exem);
+var_dump($exemploarray);
 
-foreach($exemploarray as $chave => $valor){
-    echo "O valor com a chave ".  $chave  . " é " . $valor ."<br>";
-}
+array_push($exemploarray, "oi cheguei", true, 15);
+echo"<p>"; 
+var_dump($exemploarray);
 ?>
 </body>
 </html>
