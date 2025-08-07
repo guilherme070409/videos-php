@@ -6,14 +6,20 @@
     <title>Document</title>
 </head>
 <body>
-<?php 
-$exem = "sou um exemplo:)";
-$exemploarray = array("teste",1 ,false,"oiii", $exem);
-var_dump($exemploarray);
+<?php  
 
-array_push($exemploarray, "oi cheguei", true, 15);
-echo"<p>"; 
-var_dump($exemploarray);
-?>
+$exem = "sou um exemplo:)"; 
+
+$exemploarray = array("teste",1 ,false,"oiii", $exem); 
+
+ 
+
+foreach($exemploarray as $chave => $valor){ 
+
+    echo "O valor com a chave ".  $chave  . " é " . $valor ."<br>"; 
+
+} 
+
+?> 
 </body>
 </html>
